@@ -28,7 +28,7 @@ public class BalleCamera : MonoBehaviour
 
         #if UNITY_IPHONE || UNITY_ANDROID
             if(Input.touches.Length==1){
-                x+=x += Input.GetTouch(0).deltaPosition.x * 0.1f;
+                x += Input.GetTouch(0).deltaPosition.x * 0.1f;
             }
         #endif
 
