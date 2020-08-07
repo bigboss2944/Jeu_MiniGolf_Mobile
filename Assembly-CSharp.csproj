@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\BalleCollision.cs" />
     <Compile Include="Assets\Scripts\BalleMouvement.cs" />
     <Compile Include="Assets\Scripts\ForceField.cs" />
+    <Compile Include="Assets\Scripts\LevelSelection.cs" />
     <Compile Include="Assets\Scripts\MonPremierScript.cs" />
     <Compile Include="Assets\Scripts\PauseScript.cs" />
     <Compile Include="Assets\Scripts\ShootScript.cs" />
