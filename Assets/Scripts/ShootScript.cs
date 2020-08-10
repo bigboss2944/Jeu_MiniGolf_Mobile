@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ShootScript : MonoBehaviour
 {
-    public int nbShotsLeft = 5;
+    public int nbShotsLeft;
     int power;
     public GameObject balle;
     public Text textNbShots;
