@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3404982190521674714}
   - component: {fileID: 3404982190521674713}
   - component: {fileID: 3404982190521674692}
+  - component: {fileID: 208119885}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -94,8 +95,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5570a34a0700d0347a4d989208dd22a1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   balle: {fileID: 0}
   camDistance: 3.5
 --- !u!114 &208119885
@@ -108,8 +109,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   volumeTrigger: {fileID: 3404982190521674715}
   volumeLayer:
     serializedVersion: 2
