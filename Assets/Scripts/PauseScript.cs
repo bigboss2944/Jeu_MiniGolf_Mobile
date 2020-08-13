@@ -11,7 +11,6 @@ public class PauseScript : MonoBehaviour
     {
         menuPause.SetActive(true);
         Time.timeScale = 0.0f;
-
     }
 
     public void DesactivatePause()
@@ -24,11 +23,20 @@ public class PauseScript : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        menuPause.SetActive(false);
     }
 
     public void BackToMenu()
     {
         Time.timeScale = 1.0f;
         SceneManager.LoadScene(0);
+        menuPause.SetActive(false);
+    }
+
+    public void NextLevel()
+    {
+        Time.timeScale = 1.0f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        menuPause.SetActive(false);
     }
 }
