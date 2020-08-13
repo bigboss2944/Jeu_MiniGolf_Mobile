@@ -728,6 +728,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bdc1e9a863202b48bc151fe8c76885e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &590967129 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3404982190521674712, guid: 7bdc1e9a863202b48bc151fe8c76885e,
@@ -924,6 +925,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 583e6db31b9fd554db143bce795ae483, type: 3}
+=======
+>>>>>>> parent of 74dd271... Added Game over menu. added sound: -Game Over -clapping sound -wing sound
 =======
 >>>>>>> parent of 74dd271... Added Game over menu. added sound: -Game Over -clapping sound -wing sound
 --- !u!1 &605089670 stripped
