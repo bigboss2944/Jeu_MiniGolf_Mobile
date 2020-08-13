@@ -268,12 +268,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nbShotsLeft: 5
   balle: {fileID: 0}
-  endMenu: {fileID: 0}
   textNbShots: {fileID: 1821496017623426101}
   txtPower: {fileID: 1821496016799214740}
   slider: {fileID: 1821496017322806473}
-  swingSon: {fileID: 8300000, guid: bbb7f0e92a94f2248b2221d61f1fbc39, type: 3}
-  gameOver: {fileID: 8300000, guid: 0ae6e9b956633fa429012b877b13f942, type: 3}
 --- !u!114 &1821496017322806327
 MonoBehaviour:
   m_ObjectHideFlags: 0

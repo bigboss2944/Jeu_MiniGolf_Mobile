@@ -8,12 +8,9 @@ public class ShootScript : MonoBehaviour
     public int nbShotsLeft;
     int power;
     public GameObject balle;
-    public GameObject endMenu;
     public Text textNbShots;
     public Text txtPower;
     public Slider slider;
-    public AudioClip swingSon;
-    public AudioClip gameOver;
 
     public void Start()
     {
@@ -28,15 +25,8 @@ public class ShootScript : MonoBehaviour
             nbShotsLeft--;
             textNbShots.text = "Shots: "+nbShotsLeft;
             balle.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward*power);
-            balle.GetComponent<AudioSource>().PlayOneShot(swingSon);
             slider.value = 0;
             StartCoroutine("LockSlider");
-        }
-        else
-        {
-            slider.value = 0;
-            balle.GetComponent<AudioSource>().PlayOneShot(gameOver);
-            endMenu.SetActive(true);
         }
     }
 
