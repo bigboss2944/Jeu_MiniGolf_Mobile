@@ -121,7 +121,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3170218558530682126}
-        m_MethodName: BackToMenu
+        m_MethodName: BackToSelectionLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

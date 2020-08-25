@@ -17,6 +17,10 @@ public class BallScript : MonoBehaviour
         if (other.gameObject.tag == "EndZoneTag")
         {
             endMenu.SetActive(true);
+
+            int niveauActuel = SceneManager.GetActiveScene().buildIndex;
+
+            PlayerPrefs.SetInt("DernierNiveau", niveauActuel+1);
         }
     }
 }

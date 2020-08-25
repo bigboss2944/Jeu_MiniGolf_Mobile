@@ -26,10 +26,10 @@ public class PauseScript : MonoBehaviour
         menuPause.SetActive(false);
     }
 
-    public void BackToMenu()
+    public void BackToSelectionLevel()
     {
         Time.timeScale = 1.0f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         menuPause.SetActive(false);
     }
 
