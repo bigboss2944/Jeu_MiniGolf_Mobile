@@ -3,13 +3,17 @@ Library/Artifacts/
 
 Library/PackageCache/
 
-Library/PackageCache/
-
 Library/PlayerDataCache/
 
 Library/ScriptAssemblies/
 
 Library/ShaderCache/
 
-Library/ArtifactDB/
+Library/StateCache/
+
+Library/TempArtifacts/
+
+Library/ArtifactDB
+
+Library/SourceAssetDB
 
