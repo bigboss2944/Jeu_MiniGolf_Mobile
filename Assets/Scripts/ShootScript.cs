@@ -11,6 +11,8 @@ public class ShootScript : MonoBehaviour
     public Text textNbShots;
     public Text txtPower;
     public Slider slider;
+    public AudioClip son;
+    public GameObject menuGameOver;
 
     public void Start()
     {
@@ -25,8 +27,14 @@ public class ShootScript : MonoBehaviour
             nbShotsLeft--;
             textNbShots.text = "Shots: "+nbShotsLeft;
             balle.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward*power);
+            balle.GetComponent<AudioSource>().PlayOneShot(son);
             slider.value = 0;
             StartCoroutine("LockSlider");
+        }
+        else
+        {
+            menuGameOver.SetActive(true);
+            Time.timeScale = 0.0f;
         }
     }
 

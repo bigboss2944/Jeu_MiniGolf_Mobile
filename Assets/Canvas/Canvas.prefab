@@ -271,6 +271,7 @@ MonoBehaviour:
   textNbShots: {fileID: 1821496017623426101}
   txtPower: {fileID: 1821496016799214740}
   slider: {fileID: 1821496017322806473}
+  son: {fileID: 8300000, guid: 76f8c8871a7f2b34a8962b553155b117, type: 3}
 --- !u!114 &1821496017322806327
 MonoBehaviour:
   m_ObjectHideFlags: 0
