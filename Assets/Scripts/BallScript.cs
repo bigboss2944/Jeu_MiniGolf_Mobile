@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class BallScript : MonoBehaviour
 {
     public GameObject endMenu;
+    public int niveauActuel;
 
     void OnTriggerEnter(Collider other)
     {
@@ -18,9 +19,9 @@ public class BallScript : MonoBehaviour
         {
             endMenu.SetActive(true);
 
-            int niveauActuel = SceneManager.GetActiveScene().buildIndex;
+            niveauActuel = SceneManager.GetActiveScene().buildIndex;
 
-            PlayerPrefs.SetInt("DernierNiveau", niveauActuel+1);
+            PlayerPrefs.SetInt("DernierNiveau", niveauActuel);
         }
     }
 }

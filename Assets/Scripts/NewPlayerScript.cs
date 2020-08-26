@@ -13,8 +13,8 @@ public class NewPlayerScript : MonoBehaviour
     {
         string firstNameString;
         firstNameString = firstName.GetComponent<Text>().text;
-        PlayerPrefs.SetInt("DernierNiveau", 0);
-        PlayerPrefs.SetString("Nom",firstNameString);
+        //PlayerPrefs.SetInt("DernierNiveau", 0);
+        //PlayerPrefs.SetString("Nom",firstNameString);
         SceneManager.LoadScene(1);
     }
 }
