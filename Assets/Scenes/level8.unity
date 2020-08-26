@@ -417,12 +417,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.39
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.0839996
+      value: 4.067
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
@@ -756,6 +756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endMenu: {fileID: 1413132463}
+  niveauActuel: 0
 --- !u!1001 &1302322615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1396,12 +1397,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.39
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.9189997
+      value: 4.905
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
@@ -1531,7 +1532,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.395
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d23c88f27e9356b4180bfa549b484f07,
         type: 3}
@@ -1811,7 +1812,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 407b66be6ab9dfe4db9964a882247d4c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.49
+      value: -7.35
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 407b66be6ab9dfe4db9964a882247d4c,
         type: 3}

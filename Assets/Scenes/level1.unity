@@ -1791,11 +1791,6 @@ PrefabInstance:
       objectReference: {fileID: 66496382}
     - target: {fileID: 1821496017322806326, guid: a5d5b54b79ee0f34ba12d51c8de180da,
         type: 3}
-      propertyPath: nbShotsLeft
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1821496017322806326, guid: a5d5b54b79ee0f34ba12d51c8de180da,
-        type: 3}
       propertyPath: menuGameOver
       value: 
       objectReference: {fileID: 3736818129219292952}
